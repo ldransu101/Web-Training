@@ -1,0 +1,54 @@
+
+
+h1 {
+    color:rgb(185, 96, 185);
+
+}
+/**class Selector
+**/
+.bca{
+    color:palevioletred;
+}
+/**ID Selector
+**/
+#bct{
+    color:aquamarine;
+}
+.message{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+.message.success{
+    background-color:navy;
+}
+.error{
+    background-color:grey;
+}
+.success, .error{
+    color:navajowhite
+}
+/**
+Chaining Selector
+**/
+.message{
+   background-color:brown
+   font-family: 'Ubuntu', sans-serif;
+   font-weight:800;
+   text-transform:uppercase;
+   text-align:"left"
+}
+/**
+okay the 
+**/ 
+img{
+    width:200px;
+    height:200px;
+}
+.center{
+    text-align:center
+}
+body{
+    background-image:url(aesthic-wallpaper.webp);
+    background-size: contain;
+    background-image: linear-gradient(pink,plum);
+}
