@@ -45,10 +45,10 @@ header{
 }
 .images{
     background-color: plum;
-    display: flex;
-    justify-content:center;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width:900px;
-    flex-wrap:wrap;
 }
 
 
