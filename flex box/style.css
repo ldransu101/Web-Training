@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    color:brown;
+    background-color:pink;
+    padding:20px 0;
+    display:flex;
+    justify-content: center;
+}
+.menu{
+    
+    width: 900px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.link{
+    display:flex;
+    
+    gap:10px;
+}
+.hero-container{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0;
+    width:900px;
+    height:400px;
+    align-items: center;
+
+}
+.next{
+    background-color: plum;
+    display:flex;
+    justify-content: center;
+    
+}
+.images{
+    background-color: plum;
+    display: flex;
+    justify-content:center;
+    width:900px;
+    flex-wrap:wrap;
+}
+
+
+    
+
+            
+    
+            

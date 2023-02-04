@@ -1,0 +1,21 @@
+header{
+    height:100px;
+    background-color: rgb(148, 126, 167);
+}
+aside{
+     background-color: rgb(228, 185, 185);
+     height:500px;
+     width:30%;
+     float:left;
+}
+main{
+    background-color: rgb(149, 149, 209);
+    height:700px;
+    width:70%;
+    float:left;
+}
+footer{
+    clear:left;
+    background-color: aquamarine;
+    height:200px;
+}
