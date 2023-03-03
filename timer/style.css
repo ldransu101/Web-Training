@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(200, 163, 235);
+    font-size: 10px;
+}
+.timer-container{
+
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timer-controls{
+    display:flex;
+}
+.timer-button{
+    background:none;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size: 2em;
+    text-transform: uppercase;
+    background: rgba(211, 111, 161, 0.1);
+    padding:1em;
+    font-family: monospace;
+}
+.timer-button:hover{
+    background: rgba(191, 20, 160, 0.2);
+}
+.timer-display{
+    display: flex;
+    flex-direction: column;
+}
+.time-left{
+    font-size:10em;
+    color:white;
+    text-shadow: 4px 5px 0 rgba(0,0,0,0.1);
+}
